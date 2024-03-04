@@ -3,8 +3,8 @@ import styled, { css } from "styled-components";
 type StyledButtonPropsType = {
   color?: string;
   fontSize?: string;
-  // primary?: boolean;
-  // outlined?: boolean;
+  primary?: boolean;
+  outlined?: boolean;
   buttonType?: "primary" | "outlined";
   active?: boolean;
 };

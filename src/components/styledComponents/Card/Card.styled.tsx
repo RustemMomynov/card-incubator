@@ -15,14 +15,6 @@ export const StyledCard = styled.div`
 
   box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
 
-  img {
-    width: 280px;
-    height: 170px;
-
-    margin: 10px 10px 0px 10px;
-    border-radius: 10px;
-  }
-
   div {
     margin: 20px 20px 20px 20px;
 
@@ -47,5 +39,3 @@ export const StyledCard = styled.div`
     margin-left: 12px;
   }
 `;
-
-const StyledImg = styled.img;
